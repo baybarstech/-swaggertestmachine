@@ -55,7 +55,6 @@ export class HttpMethodHandler {
     }
   }
 
-  // Аналогичные методы для PUT, PATCH, DELETE...
 
   private buildPath(path: string, parameters: Parameter[]): string {
     let result = path;
@@ -89,7 +88,7 @@ export class HttpMethodHandler {
       return requestBody.example;
     }
 
-    // Здесь можно добавить логику генерации тела запроса на основе схемы
+ 
     return {};
   }
 
