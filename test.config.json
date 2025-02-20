@@ -1,0 +1,14 @@
+{
+  "methods": {
+    "GET": true,
+    "POST": false,
+    "PUT": false,
+    "PATCH": false,
+    "DELETE": false
+  },
+  "excludePaths": [
+    "/api/notest",
+    "/api/notest/notest"
+  ],
+  "includeOnly": []
+}
